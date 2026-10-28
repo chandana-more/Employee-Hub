@@ -32,6 +32,27 @@ Screenshots
 Screenshots of the Employee Hub application are available in the "screenshots" folder of this repository.
 
 <!-- Add your own screenshots below after confirming their filenames. -->Setup and Installation
+Application Screenshots
+
+1. Home Page
+
+"Home Page" (screenshots/home_page.png)
+
+2. Add Employee
+
+"Add Employee" (screenshots/add_employee.png)
+
+3. Delete Employee
+
+"Delete Employee" (screenshots/delete_employee.png)
+
+4. Update Employee
+
+"Update Employee" (screenshots/update_employee.png)
+
+5. View All Employees
+
+"View All Employees" (screenshots/view_employees.png)
 
 1. Install Requirements
 
