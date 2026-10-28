@@ -1,50 +1,72 @@
+Employee Hub – Employee Management System
 
-# Employee Management System in Python (Tkinter Frontend & MySQL Backend)
+Employee Hub is a desktop-based Employee Management System developed using Python, Tkinter, and MySQL. It provides a simple interface for managing employee records efficiently.
 
-**Frontend**: Tkinter based frontend.
+Technologies Used
 
-**MySQL Integration**: Integrated MySQL as the database backend.
+- Frontend: Tkinter (Python GUI)
+- Programming Language: Python
+- Backend Database: MySQL
+- Database Connectivity: MySQL Connector for Python
 
-## Features
+Features
 
-- **Add an Employee:** Easily add new employees to your database with this function. Input their details, and the system will store them in the database.
+- Add an Employee: Add new employee records by entering their details.
+- Delete an Employee: Delete employee records from the database.
+- Update an Employee: Modify existing employee information.
+- View All Employees: Display all employee records in one place.
 
-- **Delete an Employee:** Select the employee to delete, and with a click of a button, it will remove the employee details from the database.
+Employee Information
 
-- **Update an Employee:** Make changes to their information/details and save the updated data.
+The system manages the following details:
 
-- **View All Employees**: Fetch all employees from the database in a single click.
+- Employee ID
+- Employee Name
+- Date of Birth
+- Joining Date
+- Salary
+- Department
 
-## Screenshots
+Screenshots
 
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/home_screeen.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/add_an_employee.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/delete_an_employee.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/delete_an_employee_2.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/update_an_employee.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/update_an_employee_2.png)
-![App Screenshot](https://github.com/OnkarSagare27/employee-management-mysql/blob/master/screenshots/view_all_employee.png)
+Screenshots of the Employee Hub application are available in the "screenshots" folder of this repository.
 
-## Setup
-- Fork this repo
-- Clone repo
-```sh
-git clone https://github.com/OnkarSagare27/employee-management-mysql.git
-```
-- Configure stuff in ``config.json``
-```json
-{
-    "pass": "DATABASE PASSWORD",
-    "user": "root",
-    "host": "localhost",
-    "database": "employees"
-}
-```
-- Install requirements
-```sh
-pip install -r requirements.txt
-```
-- Run ``main.py``
-```
-python main.py
-```
+<!-- Add your own screenshots below after confirming their filenames. -->Setup and Installation
+
+1. Install Requirements
+
+Install Python and MySQL on your computer.
+
+2. Download the Project
+
+Download this repository using the Code → Download ZIP option on GitHub, then extract the ZIP file.
+
+3. Install Python Packages
+
+Open a terminal in the project folder and run:
+
+py -m pip install -r requirements.txt
+
+4. Configure MySQL
+
+Configure your local MySQL database settings in "config.json".
+
+Important: Do not upload your actual database password or other private credentials to this public repository.
+
+5. Run the Application
+
+Run the following command from the project folder:
+
+py main.py
+
+Project Objective
+
+The objective of Employee Hub is to simplify employee record management by providing an easy-to-use desktop application connected to a MySQL database.
+
+Developer
+
+Chandana More
+
+Project Type
+
+Python Desktop Application
